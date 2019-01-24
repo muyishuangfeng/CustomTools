@@ -28,7 +28,6 @@ import java.util.regex.Pattern;
 
 import javax.security.auth.x500.X500Principal;
 
-import static com.yk.fast.customfast.BuildConfig.DEBUG;
 
 
 /**
@@ -366,9 +365,6 @@ public class AppUtil {
                     // pkgList 得到该进程下运行的包名
                     String[] pkgList = process.pkgList;
                     for (String pkgName : pkgList) {
-                        if (DEBUG) {
-
-                        }
                         try {
                             am.killBackgroundProcesses(pkgName);
                             count++;
@@ -378,9 +374,6 @@ public class AppUtil {
                     }
                 }
             }
-        }
-        if (DEBUG) {
-
         }
         return count;
     }

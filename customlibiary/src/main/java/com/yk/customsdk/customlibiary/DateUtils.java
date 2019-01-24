@@ -3,6 +3,7 @@ package com.yk.customsdk.customlibiary;
 import android.annotation.SuppressLint;
 import android.support.annotation.IntDef;
 import android.support.annotation.NonNull;
+import android.util.Log;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
@@ -15,7 +16,6 @@ import java.util.Date;
 import java.util.List;
 import java.util.Locale;
 
-import cn.addapp.pickers.util.LogUtils;
 
 /**
  * 日期时间工具类
@@ -118,8 +118,6 @@ public class DateUtils extends android.text.format.DateUtils {
         long elapsedMinutes = differentMilliSeconds / minutesInMilli;
         differentMilliSeconds = differentMilliSeconds % minutesInMilli;
         long elapsedSeconds = differentMilliSeconds / secondsInMilli;
-        LogUtils.verbose(String.format(Locale.CHINA, "different: %d ms, %d days, %d hours, %d minutes, %d seconds",
-                differentMilliSeconds, elapsedDays, elapsedHours, elapsedMinutes, elapsedSeconds));
         return new long[]{elapsedDays, elapsedHours, elapsedMinutes, elapsedSeconds};
     }
 
@@ -177,7 +175,7 @@ public class DateUtils extends android.text.format.DateUtils {
             }
             return Integer.parseInt(text);
         } catch (NumberFormatException e) {
-            LogUtils.warn(e);
+            e.printStackTrace();
             return 0;
         }
     }
@@ -214,7 +212,7 @@ public class DateUtils extends android.text.format.DateUtils {
             Date date = dateFormat.parse(dateStr);
             return new Date(date.getTime());
         } catch (ParseException e) {
-            LogUtils.warn(e);
+           e.printStackTrace();
             return null;
         }
     }

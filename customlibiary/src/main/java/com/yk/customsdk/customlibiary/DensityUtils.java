@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.res.Resources;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.util.TypedValue;
 import android.view.Display;
 import android.view.Window;
@@ -12,7 +13,6 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 
-import com.orhanobut.logger.Logger;
 
 
 public class DensityUtils {
@@ -147,8 +147,6 @@ public class DensityUtils {
 		WindowManager windowManager = (WindowManager) context
 				.getSystemService(Context.WINDOW_SERVICE);
 		windowManager.getDefaultDisplay().getMetrics(dm);
-		Logger.v("screen width=" + dm.widthPixels + "px, screen height=" + dm.heightPixels
-				+ "px, densityDpi=" + dm.densityDpi + ", density=" + dm.density);
 		return dm;
 	}
 

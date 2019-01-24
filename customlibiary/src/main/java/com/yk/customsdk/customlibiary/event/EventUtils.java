@@ -1,7 +1,5 @@
-package com.yk.customsdk.customlibiary;
+package com.yk.customsdk.customlibiary.event;
 
-
-import com.yk.fast.customfast.model.Event;
 
 import org.greenrobot.eventbus.EventBus;
 
