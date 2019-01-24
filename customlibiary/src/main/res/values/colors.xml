@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="color_green">#13D1BE</color>
+    <color name="colorPinkRed">#FFF95570</color>
+    <color name="colorPink">#FFE97C8E</color>
+    <color name="colorTitleBlack">#FF333333</color>
+    <color name="colorContentGray">#FF808080</color>
+    <color name="colorBgBlack">#FF000000</color>
+    <color name="colorTitleGreen">#FF20C78F</color>
+    <color name="colorTitleRed">#EC5C74</color>
+    <color name="colorAzure">#FF636CEE</color>
+    <color name="colorPurple">#636CEE</color>
+    <color name="colorContent">#333333</color>
+    <color name="colorTransWhite">#0DFFFFFF</color>
+    <color name="colorTitle">#625C5C</color>
+    <color name="colorGray">#FF808080</color>
+    <color name="colorYellowLight">#4DFCDA2E</color>
+    <color name="colorLayoutGray">#ffe6e6e6</color>
+    <color name="colorAhex">#FFCCCCCC</color>
+    <color name="colorGrayLight">#FFF2F2F2</color>
+    <color name="colorTextLight">#FFD2D2D2</color>
+    <color name="colorBlueLight">#FF469CF2</color>
+    <color name="colorBlue">#FF636CEE</color>
+    <color name="translucent_background">#90000000</color>
+    <color name="colorBlueWhite">#e5f1fb</color>
+    <color name="colorTextBackground">#FFF7F7F7</color>
+    <color name="colorGreenLight">#BCEEDD</color>
+    <color name="colorRed">#FFD53131</color>
+    <color name="colorRemindRed">#FFEC405D</color>
+    <color name="colorYellow">#FCE42D</color>
+    <color name="colorTitleYellow">#FFFCE32E</color>
+    <color name="colorOrange">#FFF59E2C</color>
+    <color name="colorBlueBg">#FF4281F4</color>
+    <color name="colorTranslation">#01000000</color>
+    <color name="colorTitleWhite">#33FFFFFF</color>
+    <color name="colorUnselect">#5D4E4F</color>
+    <color name="colorSeek">#939296</color>
+    <color name="colorLayoutBg">#FF3C3534</color>
+    <color name="colorEightBg">#CC3C3534</color>
+    <color name="colorEightBgs">#66000000</color>
+    <color name="colorBg">#0D3C3534</color>
+    <color name="colorTextYellow">#FFFCE42D</color>
+    <color name="colorTextBg">#FF6B9BF3</color>
+    <color name="TextBg">#EBF4FD</color>
+
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+    <color name="pickerview_bgColor_overlay">#60000000</color>
+    <color name="pickerview_bgColor_default">#FFFFFFFF</color>
+
+    <color name="prompt_success">#31c27c</color>
+    <color name="prompt_error">#ff0000</color>
+    <color name="prompt_warning">#f0633d</color>
+
+    <color name="percent50translucentBlack">#80000000</color>
+    <color name="percent15translucentBlack">#26000000</color>
+    <color name="percent30translucentBlack">#4D000000</color>
+    <color name="percent40translucentBlack">#66000000</color>
+    <color name="percent60translucentBlack">#99000000</color>
+    <color name="percent80translucentBlack">#CC000000</color>
+
+    <color name="main_color">#FF61CAF4</color>
+    <color name="main_color_gray">#FFA8A8A8</color>
+    <color name="main_color_c5c5c5">#FFC5C5C5</color>
+
+    <color name="permissionColorGreen">#41c236</color>
+    <color name="permissionColorWhite">#ffffff</color>
+    <color name="permissionBgColorGreenLight">#44A49C</color>
+    <color name="permissionBgColorBlue">#ee447AA4</color>
+</resources>
